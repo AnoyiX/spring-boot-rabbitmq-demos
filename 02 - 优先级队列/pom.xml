@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.anoyi</groupId>
-    <artifactId>rabbitmq-normal-queue</artifactId>
+    <artifactId>rabbitmq-priority-queue</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <description>Spring Boot RabbitMQ 基础 DEMO - 更多内容访问 https://anoyi.com</description>

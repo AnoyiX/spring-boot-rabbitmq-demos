@@ -6,13 +6,28 @@ import lombok.Data;
 public class MessageRequestBean {
 
     /**
-     * 内容
+     * 交换器
      */
-    private String content;
+    private String exchange;
+
+    /**
+     * 路由键
+     */
+    private String routingKey;
 
     /**
      * 数量
      */
     private Integer count;
+
+    /**
+     * 优先级
+     */
+    private Integer priority;
+
+    /**
+     * 内容
+     */
+    private String content;
 
 }

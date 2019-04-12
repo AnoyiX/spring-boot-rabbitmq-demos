@@ -7,3 +7,9 @@ spring:
     port: 5672
     username: anoyi
     password: Passw0rd
+    listener:
+      simple:
+        acknowledge-mode: auto
+        concurrency: 2
+        max-concurrency: 2
+        prefetch: 1
