@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: anoyi
+    password: Passw0rd
+    listener:
+      simple:
+        acknowledge-mode: auto
+        concurrency: 2
+        max-concurrency: 2
+        prefetch: 1
+        default-requeue-rejected:
